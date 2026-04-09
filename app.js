@@ -2,7 +2,7 @@
 const ROOMS = ["312호"]; // 단일 강의실로 변경
 
 const SEATS_BY_ROOM = {
-  "312호": Array.from({ length: 32 }, (_, i) => String(i + 1)), // 좌석 수 32개로 변경
+  "312호": Array.from({ length: 35 }, (_, i) => String(i + 1)), // 좌석 수 35개로 변경
 };
 
 // 고정 좌석 설정
@@ -16,7 +16,7 @@ const BANNED_USERS = [
 ];
 
 // CSV 복사 기능 관리자 비밀번호
-const ADMIN_PASSWORD = '0415405841-2026-2-0409';
+const ADMIN_PASSWORD = '0415405841-2026-1-0409';
 
 const KST_OFFSET_MIN = 9 * 60; // KST +09:00
 // ===================
