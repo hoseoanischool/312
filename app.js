@@ -250,7 +250,7 @@ async function searchReservation() {
   }
 
   $openChatLinkContainer.innerHTML = `
-    <a href="https://open.kakao.com/o/gS1ZZ8gh" target="_blank" rel="noopener noreferrer" style="color: #3498db; font-weight: bold; text-decoration: none;">
+    <a href="https://open.kakao.com/o/gpEagxpi" target="_blank" rel="noopener noreferrer" style="color: #3498db; font-weight: bold; text-decoration: none;">
       ▶ 야작 오픈 채팅방 바로가기
     </a>
   `;
