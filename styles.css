@@ -50,7 +50,7 @@ h1, h2 { text-align: center; }
 
 /* ▼ 수정된 부분: 312호 좌석 배치 */
 .seat-container.room-312 {
-    grid-template-columns: repeat(4, 80px);
+    grid-template-columns: repeat(10, 80px);
     grid-template-rows: auto;
     grid-template-areas:
       "s1  s2  s3  . s4  s5  s6  . s7  s8"
