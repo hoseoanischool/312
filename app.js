@@ -249,11 +249,11 @@ async function searchReservation() {
     return;
   }
 
-  $openChatLinkContainer.innerHTML = `
-    <a href="https://open.kakao.com/o/gpEagxpi" target="_blank" rel="noopener noreferrer" style="color: #3498db; font-weight: bold; text-decoration: none;">
-      ▶ 야작 오픈 채팅방 바로가기
-    </a>
-  `;
+ $openChatLinkContainer.innerHTML = `
+  <a href="https://open.kakao.com/o/gpEagxpi" target="_blank" rel="noopener noreferrer" style="color: #3498db; font-weight: bold; text-decoration: none;">
+    ▶ 312 야작 오픈채팅방 바로가기
+  </a>
+`;
   
   results.forEach(res => {
     const row = document.createElement("div");
